@@ -1,15 +1,18 @@
 {
   "sit.lua": {
     "description": "Players can type /sit in the chat to sit.",
-    "type": "server"
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   },
   "shift To Sprint.lua": {
     "description": "Simple shift to sprint script (DON'T add this to StarterCharacterScripts)",
-    "type": "local"
+    "type": "local",
+    "preferredLocation": "ServerScriptService"
   },
   "first Person.lua": {
     "description": "Locks players in first person",
-    "type": "local"
+    "type": "local",
+    "preferredLocation": "StarterPlayerScripts"
   },
   "instant Kill.lua": {
     "description": "Insert this script in a part for an instant kill (useful for obbies)",
@@ -17,10 +20,12 @@
   },
   "leaderstats.lua": {
     "description": "Simple leaderstats script",
-    "type": "server"
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   },
   "day Night Cycle.lua": {
     "description": "Day/Night cycle. (Insert in ServerScriptService)",
-    "type": "server"
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
