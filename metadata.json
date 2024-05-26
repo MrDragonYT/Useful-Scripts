@@ -18,5 +18,9 @@
   "leaderstats.lua": {
     "description": "Simple leaderstats script",
     "type": "server"
+  },
+  "day Night Cycle.lua": {
+    "description": "Day/Night cycle. (Insert in ServerScriptService)",
+    "type": "server"
   }
 }
