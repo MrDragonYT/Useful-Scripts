@@ -1,1 +1,10 @@
-{"sit.lua": {"description": "Players can type /sit in the chat to sit."}}
+{
+  "sit.lua": {
+    "description": "Players can type /sit in the chat to sit.",
+    "type": "server"
+  },
+  "shift To Sprint.lua": {
+    "description": "Simple shift to sprint script",
+    "type": "local"
+  }
+}
