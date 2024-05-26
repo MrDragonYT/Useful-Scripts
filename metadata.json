@@ -7,7 +7,7 @@
   "shift To Sprint.lua": {
     "description": "Simple shift to sprint script (DON'T add this to StarterCharacterScripts)",
     "type": "local",
-    "preferredLocation": "ServerScriptService"
+    "preferredLocation": "StarterPlayerScripts"
   },
   "first Person.lua": {
     "description": "Locks players in first person",
