@@ -14,5 +14,9 @@
   "instant Kill.lua": {
     "description": "Insert this script in a part for an instant kill (useful for obbies)",
     "type": "server"
+  },
+  "leaderstats.lua": {
+    "description": "Simple leaderstats script",
+    "type": "server"
   }
 }
