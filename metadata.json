@@ -27,5 +27,10 @@
     "description": "Day/Night cycle. (Insert in ServerScriptService)",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "instant Respawn.lua": {
+    "description": "Allows players to respawn instantly",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
