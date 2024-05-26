@@ -1,1 +1,14 @@
-{"sit.lua": {"description": "Players can type /sit in the chat to sit.", "type": "server"}, "shift To Sprint.lua": {"description": "Simple shift to sprint script (DON'T add this to StarterCharacterScripts)", "type": "local"}}
+{
+  "sit.lua": {
+    "description": "Players can type /sit in the chat to sit.",
+    "type": "server"
+  },
+  "shift To Sprint.lua": {
+    "description": "Simple shift to sprint script (DON'T add this to StarterCharacterScripts)",
+    "type": "local"
+  },
+  "first Person.lua": {
+    "description": "Locks players in first person",
+    "type": "local"
+  }
+}
