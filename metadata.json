@@ -32,5 +32,10 @@
     "description": "Allows players to respawn instantly",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "leaderstats DataStore.lua": {
+    "description": "Saves all stats in leaderstats to DataStore when player leaves and loads on join",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
