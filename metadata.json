@@ -41,5 +41,10 @@
   "landmine.lua": {
     "description": "Explodes part when touched and removes it",
     "type": "server"
+  },
+  "pet Script.lua": {
+    "description": "Pet object that follows the player (Make sure to edit the \"petObject\" variable and add this to ServerScriptService)",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
