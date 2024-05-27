@@ -56,5 +56,10 @@
     "description": "Detects if player is afk and adds a tag above their head (ADD Afk Detector Server AS WELL)",
     "type": "local",
     "preferredLocation": "StarterPlayerScripts"
+  },
+  "double Jump.lua": {
+    "description": "Double jump script",
+    "type": "local",
+    "preferredLocation": "StarterCharacterScripts"
   }
 }
