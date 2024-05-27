@@ -46,5 +46,15 @@
     "description": "Pet object that follows the player (Make sure to edit the \"petObject\" variable and add this to ServerScriptService)",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "afk Detector Server.lua": {
+    "description": "Detects if player is afk and adds a tag above their head (ADD Afk Detector Local AS WELL)",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
+  },
+  "afk Detector Local.lua": {
+    "description": "Detects if player is afk and adds a tag above their head (ADD Afk Detector Server AS WELL)",
+    "type": "local",
+    "preferredLocation": "StarterPlayerScripts"
   }
 }
