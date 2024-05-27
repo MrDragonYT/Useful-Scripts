@@ -66,5 +66,10 @@
     "description": "Kicks players when they die",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "ragdoll.lua": {
+    "description": "Ragdoll script",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
