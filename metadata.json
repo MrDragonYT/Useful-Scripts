@@ -61,5 +61,10 @@
     "description": "Double jump script",
     "type": "local",
     "preferredLocation": "StarterCharacterScripts"
+  },
+  "kick On Death.lua": {
+    "description": "Kicks players when they die",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
