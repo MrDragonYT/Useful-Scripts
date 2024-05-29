@@ -1,21 +1,18 @@
 -- Courtesy of DragonSpawner12
+-- You can combine this with the Give Tool With Gamepass script!
 
 -- Settings (can change)
-local gamepasses = { -- [ID] = Object. You can add multiple gamepasses
-    [12345678901] = game.ServerStorage.Gun -- Example, remove this or replace it
+local vips = { -- [ID] = Object. You can add multiple users
+    [114942345] = game.ServerStorage.SpecialGun -- Example, remove this or replace it
 }
 local backpackOrCharacter = false -- False = backpack, true = character (loads with tool equipped)
 -- End of settings
 
-local market = game:GetService("MarketplaceService")
-
 game.Players.PlayerAdded:Connect(function(player)
     local ownedRewards = {}
-    
-    for id, object in pairs(gamepasses) do
-        if market:UserOwnsGamePassAsync(player.UserId, id) then
-            table.insert(ownedRewards, {id, object})
-        end
+
+    if vips[player.UserId] then
+        table.insert(ownedRewards, vips[player.UserId])
     end
 
     player.CharacterAdded:Connect(function(char)

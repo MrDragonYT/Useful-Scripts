@@ -76,5 +76,10 @@
     "description": "Gives a player a tool if they own a specific gamepass",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "give Tool To VIP.lua": {
+    "description": "Gives a tool to specific VIP players (can change in table)",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
