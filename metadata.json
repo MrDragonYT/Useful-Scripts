@@ -71,5 +71,10 @@
     "description": "Ragdoll script",
     "type": "server",
     "preferredLocation": "ServerScriptService"
+  },
+  "give Player Tool With Gamepass.lua": {
+    "description": "Gives a player a tool if they own a specific gamepass",
+    "type": "server",
+    "preferredLocation": "ServerScriptService"
   }
 }
